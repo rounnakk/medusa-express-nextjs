@@ -7,6 +7,9 @@
   "keywords": [
     "nextjs"
   ],
+  "sharp": {
+    "libvips": false
+  },
   "scripts": {
     "dev": "next dev -p 8000",
     "build": "next build",
