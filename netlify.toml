@@ -2,6 +2,6 @@
 NEXT_PUBLIC_MEDUSA_BACKEND_URL="URL of your Medusa Server"
 NEXT_PUBLIC_STRIPE_API_KEY="Your Stripe Publishable API Key"
 [build]
-  command = "npm config set sharpIgnoreGlobalLibvips true && npm ci && npm run build"
+  command = "export SHARP_IGNORE_GLOBAL_LIBVIPS=1 && npm ci && npm run build"
 [build.environment]
   NODE_VERSION = "20"
