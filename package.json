@@ -1,4 +1,7 @@
 {
+  "sharp": {
+  "ignoreGlobalLibvips": true
+},
   "name": "medusa-express-nextjs",
   "version": "1.0.0",
   "private": true,
@@ -7,9 +10,7 @@
   "keywords": [
     "nextjs"
   ],
-  "sharp": {
-    "libvips": false
-  },
+  
   "scripts": {
     "dev": "next dev -p 8000",
     "build": "next build",
@@ -34,6 +35,7 @@
     "react-helmet": "^6.1.0",
     "react-query": "^3.34.7",
     "sharp": "^0.29.3",
+    
     "theme-ui": "^0.11.3",
     "yup": "^0.32.11"
   },
